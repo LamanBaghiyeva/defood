@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+.helpcenternavbar{
+    padding-left: 190px;
+    padding-right: 180px;
+    background-color: #FFEEEE;
+
+
+}
+
+.helpcenternavbar .img{
+    background: url("./pics-helpcenter/bacground.png");
+    padding-top: 440px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+    position: relative;
+ 
+}
+
+.helpcenternavbar .head{
+    position: absolute;
+    top:175px;
+    left: 220px;
+    text-align: center;
+}
+
+.helpcenternavbar .over .head h1{
+    font-size: 70px;
+    width: 79%;
+    line-height: 68px;
+    color: #ff575a;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.helpcenternavbar .over .head h4{
+    font-weight: bold;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.helpcenternavbar .over .head .button input{
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 60px;
+    background-color:#FFEEEE;
+    outline: none;
+    border: none;
+    border: 3px solid #ff575a;
+}
+
+.helpcenternavbar .over .head .button {
+    width: 85%;
+}
+.helpcenternavbar .over .head .button input:focus{
+    background-color: #fff;
+}
+
+.helpcenternavbar .over .head button{
+    position: relative;
+   border-top-right-radius: 60px;
+   border-bottom-right-radius:60px ;
+   right: 50px;
+    border: none;
+    top:-1px;
+    color: #fff;
+    padding: 12px 23px 12.5px ;
+    background-color: #ff575a;
+   
+
+}
+
+
+.over .head .search{
+    text-align: center;
+    position: relative;
+    bottom:2px;
+    color: #fff;
+    font-size: 21px;
+    
+}
+
+@media(max-width:1050px){
+    .helpcenternavbar .head{
+        position: absolute;
+        top:175px;
+        left: 120px;
+        text-align: center;
+    }
+    
+}
+
+@media(max-width:958px){
+    .helpcenternavbar .head{
+        position: absolute;
+        top:175px;
+        left: 100px;
+        text-align: center;
+    }
+
+    .helpcenternavbar .over .head .button{
+        /* background-color: #ff575a; */
+        width: 80%;
+    }
+
+    .helpcenternavbar .over .head .button input{
+        width: 70%;
+    }
+    
+    
+}
+
+@media(max-width:821px){
+    .helpcenternavbar .head{
+        position: absolute;
+        top:175px;
+        left: 50px;
+        text-align: center;
+    }
+    .helpcenternavbar .over .head h1{
+        font-size:50px ;
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .helpcenternavbar .over .head h4{
+        text-align: center;
+        width: 100%;
+    }
+
+    .helpcenternavbar .over .head .button{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:723px){
+    .helpcenternavbar .over .head h1{
+        font-size:40px 
+    }
+    .helpcenternavbar .head{
+        position: absolute;
+        top:175px;
+        left: 100px;
+        text-align: center;
+    }
+
+   
+}
+
+@media(max-width:672px){
+    .helpcenternavbar .head{
+        position: absolute;
+        top:175px;
+        left: 50px;
+        text-align: center;
+    }
+
+    .helpcenternavbar .img{
+        width:300px;
+    }
+}
+
+@media(max-width:596px){
+    .helpcenternavbar .head{
+        position: absolute;
+        top:175px;
+        left: 10px;
+        text-align: center;
+    }
+
+    .helpcenternavbar .over .head h1{
+        font-size:38px;
+        width: 100%;
+    }
+
+     .helpcenternavbar .over .head h4{
+        font-size:20px 
+    }
+
+    .helpcenternavbar .img{
+        width:280px;
+    }
+}
+
+@media(max-width:528px){
+    .helpcenternavbar .over .head h1{
+        font-size:30px;
+    }
+    .helpcenternavbar .over .head h4{
+        margin-top: 20px;
+
+    }
+
+    .helpcenternavbar .over .head .button{
+        margin-left: 20px;
+    }
+
+
+}

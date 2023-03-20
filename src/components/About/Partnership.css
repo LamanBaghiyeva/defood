@@ -1,0 +1,75 @@
+.partnership{
+ padding-top: 80px;
+
+}
+
+.partnership h1{
+    color: #ff575a;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.partnership .row {
+    padding: 40px 200px 80px 200px;
+}
+
+
+
+.partnership .row a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+
+}
+
+.partnership .row a:hover{
+    color: #ff575a;
+}
+
+.rowcardone {
+    padding-bottom: 80px;
+    padding-top: 30px;
+    box-shadow:  0px 0px 0px 2px rgb(239, 239, 239);
+}
+
+.rowcardinfo h4{
+    font-weight: bold;
+}
+.rowcardtwo{
+    padding-bottom: 80px;
+    padding-top: 30px;
+    box-shadow:  0px 0px 0px 2px rgb(239, 239, 239);
+}
+
+@media(max-width:1290px){
+    .rowcardone {
+       width: 100%;
+       margin-bottom: 20px;
+    }
+
+    .rowcardtwo{
+        width: 100%;
+    }
+}
+
+@media(max-width:900px){
+    .partnerhead{
+        padding: 8px 20px;
+    }
+    .partnership h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .partnerhead p{
+        font-size: 15px;
+    }
+    
+    .partnership .row {
+        padding:30px 80px;
+    }
+    .partnership{
+        padding-top: 50px;
+       
+       }
+}

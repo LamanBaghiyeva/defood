@@ -1,0 +1,64 @@
+.videotutorial{
+    padding:80px 180px;
+}
+
+.videotutorial .icon{
+    margin: 25px 10px;
+    font-size: 40px;
+    color: #ff575a;
+}
+
+
+.videotutorial .row .card-body a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(174, 174, 174); 
+    color: gray;   
+
+}
+
+
+
+.arrow{
+    font-size: 24px;
+}
+
+.videotutorial .row .card-body a:hover{
+    color: #ff575a;
+
+}
+
+@media(max-width:1530px){
+    .videotutorial{
+        padding:80px 100px;
+    }
+    
+}
+
+@media(max-width:1370px){
+   .videotutorial .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .videotutorial .row .card:nth-child(2){
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+   }
+
+}
+
+@media(max-width:960px){
+    .videotutorial{
+        padding-left: 0;
+    }
+}
+
+@media(max-width:760px){
+    .videotutorial{
+        padding-left: 50px;
+    }
+}

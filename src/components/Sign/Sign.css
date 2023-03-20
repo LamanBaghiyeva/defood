@@ -1,0 +1,130 @@
+.sign .row .leftsign img{
+    width: 100%;
+}
+
+.sign .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 100px 50px 220px ;
+}
+
+.sign{
+    box-sizing:content-box;
+}
+
+.sign .row .rightsign {
+    width: 38%;
+    padding: 80px 20px;
+    box-shadow:  1px 1px 3px 2px rgb(239, 239, 239);
+    border-radius: 16px;
+}
+
+
+
+.signhead{
+    text-align: center;
+}
+
+.signhead h1{
+        font-size: 60px;
+        line-height: 68px;
+        color: #ff575a;
+        font-weight: bold;
+    
+}
+
+.signhead h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ .rightsign .input{
+    width: 100%;
+    text-align: center;
+}
+
+.rightsign .input input{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.rightsign .check{
+    width: 55%;
+    text-align: center;
+    font-weight: bold;
+    color: #ff575a;
+}
+
+.rightsign button{
+    background-color:  #f73b3f;
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    margin: 12px 60px;
+    border-radius: 30px;
+    font-family:'Roboto', sans-serif;
+   
+}
+
+.rightsign .fot{
+    color:#ff575a;
+    margin: 10px 60px;
+    cursor: pointer;
+}
+
+
+@media(max-width:1468px){
+    .sign .row{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .rightsign .button button{
+        margin-left: 80px;
+    }
+}
+
+@media(max-width:1260px){
+
+    .rightsign button{
+      margin: 12px 32px;
+    }
+    .rightsign{
+        width: 50% !important;
+     }
+
+     .rightsign button{
+        background-color: #f73b3f;
+     }
+}
+
+@media(max-width:780px){
+  
+    .rightsign{
+        width: 80% !important;
+     }
+}
+
+@media(max-width:930px){
+    .rightsign button{
+        width: 60% !important;
+        margin-left: 0;
+
+    }
+    .check{
+        margin-left: 0 !important;
+      }
+}
+
+@media(max-width:860px){
+    .check{
+      margin-left: 20px;
+    }
+    .fot{
+        width: 100%;
+    }
+}

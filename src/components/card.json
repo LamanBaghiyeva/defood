@@ -1,0 +1,63 @@
+[
+    {
+        "id":"1",
+        "img":"https://demo.moxcreative.com/defood/wp-content/uploads/sites/24/2021/04/young-blonde-girl-planning-her-day-keeps-a-big-grey-cup-writes-plans-in-a-dairy.jpg",
+        "name":"Clean-Eating Meal Plan for Beginners ",
+        "text ":"Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "chef":"Michael Picco",
+        "date":"January 10, 2021",
+        "button":"DIET FOOD"
+    },
+
+    {
+        "id":"2",
+        "img":"https://demo.moxcreative.com/defood/wp-content/uploads/sites/24/2021/04/vegetarian-chili-and-ingredients-food-flat-lay.jpg",
+        "name":"Vegetarian White Chili ",
+        "text ":"Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "chef":"Michael Picco",
+        "date":"January 10, 2021",
+        "button":"FEATURED"
+    },
+
+    {
+        "id":"3",
+        "img":"https://demo.moxcreative.com/defood/wp-content/uploads/sites/24/2021/04/grilled-chicken-breast-stuffed-with-tomatoes-garlic-and-basil-e1618835689438.jpg",
+        "name":"Spinach-Stuffed Chicken Breasts ",
+        "text ":"Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "chef":"Michael Picco",
+        "date":"January 10, 2021",
+        "button":"FEATURED"
+    },
+
+    {
+        "id":"4",
+        "img":"https://demo.moxcreative.com/defood/wp-content/uploads/sites/24/2021/04/preparing-healthy-lunch.jpg",
+        "name":"ThePrep: A Week of Healthy Lunches to Power Your Week ",
+        "text ":"Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "chef":"Michael Picco",
+        "date":"January 10, 2021",
+        "button":"FEATURED"
+    },
+
+    {
+        "id":"5",
+        "img":"https://demo.moxcreative.com/defood/wp-content/uploads/sites/24/2021/04/pumpkin-vegan-soup.jpg",
+        "name":"28 Low-Calorie Vegan Soup Recipes to Keep You Warm and Cozy",
+        "text ":"Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "chef":"Michael Picco",
+        "date":"January 10, 2021",
+        "button":"HEALTHY FOOD"
+    },
+
+    {
+        "id":"6",
+        "img":"https://demo.moxcreative.com/defood/wp-content/uploads/sites/24/2021/04/healthy-homemade-superfood-trail-mix.jpg",
+        "name":"10 Everyday Superfoods",
+        "text ":"Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.",
+        "chef":"Michael Picco",
+        "date":"January 10, 2021",
+        "button":"DIET FOOD"
+    }
+  
+
+]

@@ -1,0 +1,97 @@
+.achivement{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 80px 180px ;
+}
+
+.achivement h1{
+    width: 50%;
+    color: #FF575A;
+    font-weight: bold;
+}
+
+.achivement p:nth-child(1){
+    color: #FF575A;
+}
+.leftachivement .p{
+    width: 65%;
+}
+.leftblogtimeone,.leftblogtimeseond,.leftblogtimethree{
+    display: flex;
+}
+
+.leftblog .span{
+   color: #FF575A;
+}
+.leftblog ul{
+    list-style-type: none;
+}
+.tick{
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+}
+.leftblog p{
+    font-weight: bold;
+}
+.rightachivement img{
+    opacity: 0.5;
+    z-index: -1;
+    border-radius:20px ;
+    width: 100%;
+}
+
+.rightachivement{
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #44AF69 0%, #FF575A 100%);
+    border-radius: 20px;
+    position: relative;
+    width: 35%;
+    padding: 0;
+}
+
+@media(max-width:1280px){
+    .leftachivement{
+        width: 100%;
+        padding-left: 200px;
+        padding-bottom: 50px;
+    }
+
+
+    .rightachivement{
+        width: 80%;
+    }
+
+    .achivement .row{
+        display: flex;
+
+    }
+
+    .achivement{
+       padding-left: 20px;
+    }
+}
+
+
+@media(max-width:890px){
+    .leftachivement{
+        padding-left: 100px;
+    }
+    
+    .achivement h1{
+        width: 100%;
+        color: #FF575A;
+    }  
+}
+
+@media(max-width:675px){
+    .leftachivement{
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:606px){
+    .leftachivement{
+        padding-left: 10px;
+    }  
+}

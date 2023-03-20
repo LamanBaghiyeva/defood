@@ -1,0 +1,104 @@
+
+.card{
+    width: 380px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 2px 1px 2px 0.5px rgb(239, 239, 239);
+    margin-bottom: 40px;
+
+}
+
+.container .row{
+    padding-right: 40px;
+}
+.card:hover{
+    box-shadow: 1px 1px 1px 2px  rgb(239, 239, 239);
+    transition: all linear 0.5s ease;
+}
+
+.card .img img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    cursor: pointer;
+    position: relative;
+   
+}
+
+.card .p{
+    margin-top: 43px;
+    border-top: 1px solid gray;
+    text-align: center;
+    padding-top: 20px;
+    color: #ff575A;
+}
+
+.card:nth-child(2) .p{
+    margin-top: 75px;
+}
+
+.card:nth-child(3) .p{
+    margin-top: 75px;
+}
+
+.card:nth-child(4) .p{
+    margin-top: 75px;
+}
+.card:nth-child(6) .p{
+    margin-top: 99px;
+}
+
+.card h5{
+    color: #ff575A;
+    font-weight: bold;
+    line-height: 28px;
+
+}
+
+.card a:nth-child(2){
+    position: absolute;
+    top:20px;
+    right: 20px;
+    border-radius:30px;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #ff575A;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media(max-width:1375px){
+    .container .row{
+        margin-left: 80px;
+    }
+    .card{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:1260px){
+  .container .row{
+    margin-left: 0;
+  }
+}
+
+@media(max-width:668px){
+    .container .row{
+        margin-left: 30px;
+    }
+}
+
+
+
+@media(max-width:555px){
+    .container .row{
+        margin-left: 0;
+    }
+}

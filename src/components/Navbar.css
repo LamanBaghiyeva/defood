@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.head{
+    padding: 10px 180px;
+}
+.logo{
+    width: 150px;
+}
+
+.navbar-collapse ul{
+    padding-left: 148px;
+}
+
+.navbar-collapse ul li a{
+    color: #FF575A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-collapse ul li a{
+    transition: 0.2s ;
+}
+
+.navbar .buttons .button{
+    background-color:  #f73b3f;
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 30px;
+    font-family:'Roboto', sans-serif;
+
+    
+}
+
+.drop{
+    font-size: 23px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barsbutton{
+    border: none;
+    margin-right:25px ;
+    padding:7px 7px ;
+    display: none;
+}
+
+.bars{
+    color: #FF575A;
+    font-size: 24px;
+}
+
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #fff;
+    padding: 20px;
+    display: none;
+    z-index: 9999;
+
+}
+
+.dropdown a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+.dropdown a:hover, .dropside a:nth-child(1):hover , .dropside a:nth-child(2):hover, .menu a:hover{
+    background-color: #FF575A;
+    color: #fff;
+    
+}
+
+.dropside a:nth-child(1){
+    position: absolute;
+    text-decoration: none;
+    top:248px;
+    right: 430px;
+    background-color: #fff;
+    color:#FF575A;
+    display: none;
+    z-index: 9999;
+}
+
+.dropside a:nth-child(2){
+    position: absolute;
+    text-decoration: none;
+    top:288px;
+    right: 430px;
+    width: 132px;
+    display: none;
+    background-color: #fff;
+    color: #FF575A;
+    z-index: 9999;
+}
+
+.dropright{
+    margin-left: 109px;
+}
+
+.aktiv{
+    display: flex !important;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    height:0;
+    transition: height 2s;
+    z-index: 9999;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FF575A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.height{
+   height:auto;
+   
+}
+
+
+.cafe{
+    position: absolute;
+    bottom:40px;
+    left: 180px;
+    display: none;
+    width: 20%;
+}
+.post{
+    position: absolute;
+    bottom: 5px;
+    left: 180px;
+    display: none;
+    width: 20%;
+}
+
+
+
+.dropdowne{
+   display: none;
+   z-index: 9999;
+}
+.cross{
+    position: absolute;
+    right: 16px;
+    top:10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.dropdowne{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.menu{
+    z-index: 9999;
+}
+
+.menu a:nth-child(5),.menu a:nth-child(6){
+    width: 37%;
+}
+
+
+.notshow{
+    display: none;
+}
+
+.dropsidee a:nth-child(1),.dropsidee a:nth-child(2){
+    width: 38%;
+}
+
+.city:hover,.blog:hover{
+    width: 21% !important;
+}
+@media(max-width:1410px){
+    .head{
+        padding-left: 100px;
+    }
+}
+
+@media(max-width:1300px){
+    .head{
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:1270px){
+    .head{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:1070px){
+   .navbar-collapse ul{
+    padding-left: 80px;
+   }
+}
+
+@media(max-width:991px){
+    .barsbutton{
+        display: flex !important;
+    }
+}

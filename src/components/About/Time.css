@@ -1,0 +1,87 @@
+.totalcards p{
+    width: 70%;
+}
+
+.door{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #ff575a;
+    margin-bottom: 30px;
+
+}
+.totalcards{
+    padding-left: 100px;
+}
+.totalcards .row h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.totalcards .row .cardone{
+    box-shadow: 0px 0px 0px 2px rgb(239, 239, 239);
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px 20px;
+    width: 30%;
+}
+
+
+.totalcards .row .cardtwo{
+    box-shadow: 0px 0px 0px 2px rgb(239, 239, 239);
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px 20px;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.totalcards .row .cardthree{
+    box-shadow: 0px 0px 0px 2px rgb(239, 239, 239);
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 40px 20px;
+    width: 30%;
+}
+
+.timehead p,.timehead h1{
+    color: #ff575a;
+} 
+
+.timehead h1{
+    font-weight: bold;
+}
+.timehead{
+    padding-top:40px;
+}
+
+.time{
+    background-color: #FFEEEE;
+    padding-bottom:100px;
+}
+
+.totalcards{
+    padding-top: 30px;
+
+}
+
+@media(max-width:1280px){
+    .cardone,.cardtwo,.cardthree{
+        width: 50% !important;        
+    }
+    .cardtwo{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .totalcards{
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:750px){
+    .cardone,.cardtwo,.cardthree{
+        width: 80% !important;        
+    }
+}

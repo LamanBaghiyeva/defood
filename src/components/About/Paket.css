@@ -1,0 +1,34 @@
+.pakets .row{
+    background-color: #FFEEEE;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus .h1, .plus span{
+    font-size: 70px;
+    line-height: 68px;
+    color: #ff575a;
+    font-weight: bold;
+
+}
+
+.pakets .h1{
+    color: #ff575a;
+    font-size: 60px;
+}
+
+.plus .p{
+    width: 100%; 
+}
+
+@media(max-width:1280px){
+    .plus .p{
+        margin-left: 0;
+    }
+
+    .pakets p{
+        width: 200px;
+    }
+}
